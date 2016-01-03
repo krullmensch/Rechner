@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+x = int(input("Gebe erste Zahl ein: ")) 
+
+y = int(input("Gebe zweite Zahl ein: ")) 
+
+z = x + y 
+
+if z < 10: 
+	print "Das Ergebnis aus %s und %s ist %s und somit kleiner als 10." % (x, y, z)
+	
+if z > 10:
+	print "Das Ergebnis aus %s und %s ist %s und somit groesser als 10." % (x, y, z)
+	
+if z == 10:
+	print "Das Ergebnis aus %s und %s ist 10." % (x, y)
+
+int(input())
